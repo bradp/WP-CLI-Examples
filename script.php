@@ -1,5 +1,5 @@
 <?php
-if ( defined('WP_CLI') && WP_CLI ) {
+if ( defined('WP_CLI') && WP_CLI ) { //Check to make sure WP_CLI is running. This way our code isn't loaded on normal site visits.
 
 	class Example_CLI_Commands extends WP_CLI_Command {
 
